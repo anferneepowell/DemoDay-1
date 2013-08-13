@@ -1,16 +1,103 @@
 <!DOCTYPE html>
+
 <html>
- 
+
  <head>
- 
-  <title>Kyi Kyi</title>
- 
+
+   <link rel="stylesheet" type="text/css" href="bootstrap.css">
+   
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script> 
+
+    var Name="Kyi Massey";
+
+    var Nickname="Kyi";
+
+    var Extension=".KyiMassey";
+
+    var Creator="Kyi";
+
+    var Year="1998";
+
+   </script>
+
  </head>
- 
+
  <body>
- 
-  <h1>Kyi Massey</h1>
- 
+
+  <div align="center" class="container">
+
+   <h1>Kyi Massey</h1>
+
+   <div class="navbar">
+
+    <div class="navbar-inner">
+
+     <ul class="nav">
+
+      <li class="active"><a href="index.html">Home</a></li>
+
+      <li><a href="about.html">About Me</a></li>
+
+      <li><a href="job.html">Resume</a></li>
+
+     </ul>
+
+    </div>
+
+   </div>
+
+  <div align="center">
+
+   <h2>Brotherhood</h2>
+
+   <p>
+
+  </div>
+
+  <div align="center">
+
+   <img src="kyi.jpg">
+
+  </div>
+
+   <script>
+
+     function myFunction()
+
+      {
+
+         document.getElementById("name").innerHTML=Name;
+
+         document.getElementById("nickname").innerHTML=Nickname;
+
+         document.getElementById("extension").innerHTML=Extension;
+
+         document.getElementById("creator").innerHTML=Creator;
+
+         document.getElementById("year").innerHTML=Year;
+
+      }
+
+     </script>
+
+
+     <button type="button" onclick="myFunction()">Meet Kyi Massey</button>
+
+     
+      <p>Name: <span id="name"></span></p>
+
+      <p>Nickname: <span id="nickname"></span></p>
+
+      <p>Extesion: <span id="extension"></span></p>
+
+      <p>Creator: <span id="creator"></span></p>
+
+      <p>Year: <span id="year"></span></p>
+
+  </div>
+
  </body>
- 
-</html
+
+</html>
